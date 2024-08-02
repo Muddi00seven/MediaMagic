@@ -1,6 +1,3 @@
-Sure, here's an updated `README.md` based on your provided information:
-
----
 
 # MediaMagic
 
