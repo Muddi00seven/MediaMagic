@@ -1,0 +1,19 @@
+{
+  "name": "mediamagic",
+  "version": "1.0.0",
+  "description": "A versatile media processing library for Next.js and React applications.",
+  "main": "index.js",
+  "scripts": {
+    "process-media": "node scripts/process-images.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/muddi00seven/mediamagic.git"
+  },
+  "keywords": ["media", "conversion", "nextjs", "react", "webp", "image", "video"],
+  "author": "Mudassir Khan <just00seven@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "sharp": "^0.29.3"
+  }
+}
