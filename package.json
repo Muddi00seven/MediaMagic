@@ -1,10 +1,13 @@
 {
   "name": "mediamagic",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A versatile media processing library for Next.js and React applications.",
   "main": "index.js",
+  "bin": {
+    "mediamagic": "./scripts/process-images.js"
+  },
   "scripts": {
-    "process-media": "node scripts/process-images.js"
+    "process-media": "mediamagic"
   },
   "repository": {
     "type": "git",
@@ -17,3 +20,5 @@
     "sharp": "^0.29.3"
   }
 }
+
+
